@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type Checking
+.mypy_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# FastAPI
+.fastapi/
+
+# Alembic
+alembic/versions/*.pyc
+
+# Secrets
+secrets.json
+credentials.json
+
+# Coverage
+coverage.xml
+
+# Cache
+.cache/
+
+# Temporary Files
+*.tmp
+*.swp
+
+# Docker
+docker-compose.override.yml
+
+# PostgreSQL Dumps
+*.sql
+
+# Node Modules (if frontend exists)
+node_modules/
+
+# Next.js (if frontend exists)
+.next/
+out/
